@@ -1,0 +1,26 @@
+h1, h3 {
+    text-align: center;
+}
+
+.film-list {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 30px 200px;
+}
+
+li {
+    border: 1px solid black;
+   
+    padding: 10px 40px;
+}
+
+a.film-link {
+    display: c;
+    
+    border: 2px solid red;
+    
+}

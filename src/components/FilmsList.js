@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Film from './Film'
+import './FilmsListCss.css'
 
 function FilmsList({films}){
 
@@ -16,7 +17,7 @@ function FilmsList({films}){
 
     return (
         <Fragment>
-            <h3>These are the films:</h3>
+            <h3>Films this week:</h3>
             <ul>
                 {individualFilm}
             </ul>
