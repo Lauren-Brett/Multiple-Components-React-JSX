@@ -35,10 +35,6 @@ class FilmContainer extends Component {
                     url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
                   }
             ],
-            // links: {
-            //     link: "https://www.imdb.com/calendar/?region=gb"
-            // }
-            
         }
         
     }
@@ -48,12 +44,9 @@ class FilmContainer extends Component {
             <Fragment>
                 <h1>The Upcoming Film Releases for the UK:</h1>
                  <FilmList films={this.state.films}/>
-                 <FilmLink />
-                 
+                 <FilmLink /> 
             </Fragment>
         )
-
-        
     }
 }
 

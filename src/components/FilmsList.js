@@ -12,7 +12,6 @@ function FilmsList({films}){
                 key={film.id}
                 ></Film>
         )
-    
     })
 
     return (
