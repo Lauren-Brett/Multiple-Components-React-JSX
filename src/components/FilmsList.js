@@ -4,6 +4,8 @@ import './FilmsListCss.css'
 
 function FilmsList({films}){
 
+    
+
     const individualFilm = films.map(film => {
         return (
             <Film 
